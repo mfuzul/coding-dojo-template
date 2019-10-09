@@ -14,7 +14,16 @@ class ExampleTest extends TestCase
     
     public function testRandom()
     {
+        // arrange
+        // act
+        // assert
         $object = new Example();
         $this->assertEquals(4, $object->random());
+
+        // 1 - 1
+        // 3 - fizz
+        // 5 - buzz
+        // 15 - fizzbuzz
+        // 17 - 17
     }
 }
